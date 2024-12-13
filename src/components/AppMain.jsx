@@ -10,7 +10,7 @@ function PrintPost() {
         image={curPost.image}
         title={curPost.title}
         content={curPost.content}
-        tags={curPost.tags.join(" ")}
+        tags={curPost.tags}
         />
     ))
 }

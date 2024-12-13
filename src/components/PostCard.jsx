@@ -9,7 +9,7 @@ function PostCard({title, image, content, tags, published}) {
             }</div>
 
             <div className={style.content}>
-                <h4 className={style.title}>{title} <span>{tags}</span></h4>
+                <h4 className={style.title}>{title} <span className={tags[0]}>{tags[0]}</span> <span className={tags[1]}>{tags[1]}</span></h4>
                 <p className={style.description}>{content}</p>
                 <ButtonCard />
             </div>
